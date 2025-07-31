@@ -8,7 +8,6 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
-
 func (app *application) routes() *gin.Engine {
 	router := gin.New()
 	router.Use(gin.Logger())
@@ -19,7 +18,7 @@ func (app *application) routes() *gin.Engine {
 	open := router.Group("/api/v1")
 	open.GET("/ping", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
-			"status": "200",
+			"status":  "200",
 			"message": "online",
 		})
 	})

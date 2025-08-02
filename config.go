@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/freekobie/hazel/mail"
+	"github.com/sevenxtwo/hazel/mail"
 )
 
 type Config struct {

@@ -8,19 +8,19 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/freekobie/hazel/handlers"
-	"github.com/freekobie/hazel/mail"
-	"github.com/freekobie/hazel/postgres"
-	"github.com/freekobie/hazel/services"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
+	"github.com/sevenxtwo/hazel/handlers"
+	"github.com/sevenxtwo/hazel/mail"
+	"github.com/sevenxtwo/hazel/postgres"
+	"github.com/sevenxtwo/hazel/services"
 )
 
 // @title			Hazel Project Management API
 // @version		1.0
 // @description	This is the backend API for the Hazel project management application.
 // @contact.name	API Support
-// @contact.url	https://github.com/freekobie/hazel
+// @contact.url	https://github.com/sevenxtwo/hazel
 // @contact.email	support@hazel.local
 func main() {
 

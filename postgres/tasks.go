@@ -5,9 +5,9 @@ import (
 	"errors"
 	"log/slog"
 
-	"github.com/freekobie/hazel/models"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
+	"github.com/sevenxtwo/hazel/models"
 )
 
 // CreateTask implements models.WorkspaceStore.

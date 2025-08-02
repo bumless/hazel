@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/freekobie/hazel/models"
 	"github.com/google/uuid"
+	"github.com/sevenxtwo/hazel/models"
 )
 
 func (s *WorkspaceService) CreateTask(ctx context.Context, task *models.Task) error {

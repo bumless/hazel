@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sevenxtwo/hazel/auth"
-	"github.com/sevenxtwo/hazel/mail"
-	"github.com/sevenxtwo/hazel/models"
+	"github.com/bitkobie/hazel/auth"
+	"github.com/bitkobie/hazel/mail"
+	"github.com/bitkobie/hazel/models"
 
 	"golang.org/x/crypto/bcrypt"
 )

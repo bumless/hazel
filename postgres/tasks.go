@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
-	"github.com/sevenxtwo/hazel/models"
+	"github.com/bitkobie/hazel/models"
 )
 
 // CreateTask implements models.WorkspaceStore.

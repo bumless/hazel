@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
-	"github.com/sevenxtwo/hazel/models"
+	"github.com/bitkobie/hazel/models"
 )
 
 func (w *WorkspaceStore) CreateProject(ctx context.Context, project *models.Project) error {

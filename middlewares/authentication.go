@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/sevenxtwo/hazel/auth"
+	"github.com/bitkobie/hazel/auth"
 )
 
 func Authentication() gin.HandlerFunc {

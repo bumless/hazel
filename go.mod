@@ -1,4 +1,4 @@
-module github.com/sevenxtwo/hazel
+module github.com/bitkobie/hazel
 
 go 1.24.1
 

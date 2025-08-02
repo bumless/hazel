@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sevenxtwo/hazel/models"
+	"github.com/bitkobie/hazel/models"
 )
 
 type WorkspaceService struct {

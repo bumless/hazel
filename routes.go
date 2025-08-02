@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/bitkobie/hazel/docs"
+	"github.com/bitkobie/hazel/middlewares"
 	"github.com/gin-gonic/gin"
-	"github.com/sevenxtwo/hazel/docs"
-	"github.com/sevenxtwo/hazel/middlewares"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )

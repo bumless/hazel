@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/sevenxtwo/hazel/models"
+	"github.com/bitkobie/hazel/models"
 )
 
 func (s *WorkspaceService) CreateProject(ctx context.Context, project *models.Project) error {

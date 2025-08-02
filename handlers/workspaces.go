@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/sevenxtwo/hazel/models"
-	"github.com/sevenxtwo/hazel/services"
+	"github.com/bitkobie/hazel/models"
+	"github.com/bitkobie/hazel/services"
 )
 
 // CreateWorkspace godoc

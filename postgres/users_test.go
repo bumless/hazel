@@ -10,8 +10,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/sevenxtwo/hazel/models"
-	"github.com/sevenxtwo/hazel/postgres"
+	"github.com/bitkobie/hazel/models"
+	"github.com/bitkobie/hazel/postgres"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

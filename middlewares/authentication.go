@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gin-gonic/gin"
 	"github.com/bitkobie/hazel/auth"
+	"github.com/gin-gonic/gin"
 )
 
 func Authentication() gin.HandlerFunc {

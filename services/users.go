@@ -6,10 +6,10 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/google/uuid"
 	"github.com/bitkobie/hazel/auth"
 	"github.com/bitkobie/hazel/mail"
 	"github.com/bitkobie/hazel/models"
+	"github.com/google/uuid"
 
 	"golang.org/x/crypto/bcrypt"
 )

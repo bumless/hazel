@@ -6,10 +6,10 @@ import (
 	"log/slog"
 	"strings"
 
+	"github.com/bitkobie/hazel/models"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/bitkobie/hazel/models"
 )
 
 type UserStore struct {

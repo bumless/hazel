@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/bitkobie/hazel/models"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	"github.com/bitkobie/hazel/models"
 )
 
 var (

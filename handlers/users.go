@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gin-gonic/gin"
-	"github.com/google/uuid"
 	"github.com/bitkobie/hazel/models"
 	"github.com/bitkobie/hazel/services"
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
 )
 
 // CreateUser godoc

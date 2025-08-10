@@ -5,9 +5,9 @@ import (
 	"errors"
 	"log/slog"
 
+	"github.com/bitkobie/hazel/models"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
-	"github.com/bitkobie/hazel/models"
 )
 
 func (w *WorkspaceStore) CreateProject(ctx context.Context, project *models.Project) error {

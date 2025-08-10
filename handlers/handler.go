@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/go-playground/validator/v10"
 	"github.com/bitkobie/hazel/services"
+	"github.com/go-playground/validator/v10"
 )
 
 // TODO: remove global variable

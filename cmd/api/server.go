@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/bitkobie/hazel/handlers"
+	"github.com/earthlad/hazel/handlers"
 )
 
 type application struct {

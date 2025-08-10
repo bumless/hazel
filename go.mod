@@ -1,4 +1,4 @@
-module github.com/bitkobie/hazel
+module github.com/earthlad/hazel
 
 go 1.24.1
 

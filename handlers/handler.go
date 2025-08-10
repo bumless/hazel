@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/bitkobie/hazel/services"
+	"github.com/earthlad/hazel/services"
 	"github.com/go-playground/validator/v10"
 )
 

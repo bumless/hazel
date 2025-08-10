@@ -104,7 +104,7 @@ info:
   contact:
     email: support@hazel.local
     name: API Support
-    url: https://github.com/bitkobie/hazel
+    url: https://github.com/earthlad/hazel
   description: This is the backend API for the Hazel project management application.
   title: Hazel Project Management API
   version: "1.0"

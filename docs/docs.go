@@ -11,7 +11,7 @@ const docTemplate = `{
         "title": "{{.Title}}",
         "contact": {
             "name": "API Support",
-            "url": "https://github.com/bitkobie/hazel",
+            "url": "https://github.com/earthlad/hazel",
             "email": "support@hazel.local"
         },
         "version": "{{.Version}}"

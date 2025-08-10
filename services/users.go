@@ -6,9 +6,9 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/bitkobie/hazel/auth"
-	"github.com/bitkobie/hazel/mail"
-	"github.com/bitkobie/hazel/models"
+	"github.com/earthlad/hazel/auth"
+	"github.com/earthlad/hazel/mail"
+	"github.com/earthlad/hazel/models"
 	"github.com/google/uuid"
 
 	"golang.org/x/crypto/bcrypt"

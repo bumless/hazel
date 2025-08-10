@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bitkobie/hazel/handlers"
-	"github.com/bitkobie/hazel/mail"
-	"github.com/bitkobie/hazel/postgres"
-	"github.com/bitkobie/hazel/services"
+	"github.com/earthlad/hazel/handlers"
+	"github.com/earthlad/hazel/mail"
+	"github.com/earthlad/hazel/postgres"
+	"github.com/earthlad/hazel/services"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
 )
@@ -20,7 +20,7 @@ import (
 // @version		1.0
 // @description	This is the backend API for the Hazel project management application.
 // @contact.name	API Support
-// @contact.url	https://github.com/bitkobie/hazel
+// @contact.url	https://github.com/earthlad/hazel
 // @contact.email	support@hazel.local
 func main() {
 

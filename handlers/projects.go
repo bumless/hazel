@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/bitkobie/hazel/models"
-	"github.com/bitkobie/hazel/services"
+	"github.com/earthlad/hazel/models"
+	"github.com/earthlad/hazel/services"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )
